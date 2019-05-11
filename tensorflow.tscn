@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://mobilenet_v1_1.0_224_quant.tflite" type="TensorflowModel" id=2]
+[ext_resource path="res://grace_hopper.bmp" type="Texture" id=3]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="grace_hopper" type="Sprite" parent="."]
+position = Vector2( 256.75, 298.018 )
+scale = Vector2( 0.983559, 0.983559 )
+texture = ExtResource( 3 )
+
+[node name="TensorflowAiInstance" type="TensorflowAiInstance" parent="."]
+texture = ExtResource( 3 )
+tensorflow_model = ExtResource( 2 )
