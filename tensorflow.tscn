@@ -6,8 +6,8 @@
 [node name="Spatial" type="Spatial"]
 
 [node name="grace_hopper" type="Sprite" parent="."]
-position = Vector2( 256.75, 298.018 )
-scale = Vector2( 0.983559, 0.983559 )
+position = Vector2( 261.976, 304.144 )
+scale = Vector2( 1.00378, 1.00378 )
 texture = ExtResource( 3 )
 
 [node name="TensorflowAiInstance" type="TensorflowAiInstance" parent="."]
