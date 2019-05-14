@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grace_hopper.bmp-5ce4474de9c8408dbcf21f199c11cae8.stex"
+path="res://.import/grace_hopper.png-34fa3b34e8eaafa209ffcd2281f9ce89.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://grace_hopper.bmp"
-dest_files=[ "res://.import/grace_hopper.bmp-5ce4474de9c8408dbcf21f199c11cae8.stex" ]
+source_file="res://grace_hopper.png"
+dest_files=[ "res://.import/grace_hopper.png-34fa3b34e8eaafa209ffcd2281f9ce89.stex" ]
 
 [params]
 
